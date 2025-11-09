@@ -129,46 +129,6 @@ Total: 273 documents providing comprehensive coverage of these domains.
 -> What is the Sharpe ratio?
 ```
 
-## 🛠️ Customization
-
-### Modify the Knowledge Base
-Edit `documents.py` to add or remove documents. The system will automatically rebuild the index on restart.
-
-### Adjust Retrieval Parameters
-Modify the `top_k` parameter in the `retrieve()` function call to retrieve more or fewer documents.
-
-### Change the Language Model
-Replace `google/flan-t5-base` with any compatible text-to-text generation model from Hugging Face.
-
-## 📝 Limitations
-
-- Responses are limited to 150 tokens
-- Knowledge is restricted to the provided document set
-- The system runs entirely locally (no internet required after initial model download)
-- FLAN-T5-base is a smaller model; larger models may provide better responses but require more resources
-
-## 🚧 Future Improvements
-
-- [ ] Support for larger language models (LLMs)
-- [ ] Web interface for easier interaction
-- [ ] Support for custom document uploads
-- [ ] Persistent vector index storage
-- [ ] Integration with external knowledge bases
-- [ ] Response streaming for better UX
-- [ ] Confidence scoring for retrieved documents
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 👤 Author
-
-Created as a demonstration of RAG system implementation for technical portfolios and hiring managers.
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-
 ---
 
 **Note**: This project is designed to showcase RAG implementation skills. For production use, consider using larger models, implementing proper error handling, and adding more robust evaluation metrics.
