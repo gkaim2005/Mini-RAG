@@ -37,24 +37,6 @@ FLAN-T5 Generator
 Response
 ```
 
-## 📋 Prerequisites
-
-- Python 3.8 or higher
-- pip package manager
-
-## 🚀 Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone <your-repo-url>
-   cd RAG-Project
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 ## 📦 Dependencies
 
 - `sentence-transformers`: For generating document and query embeddings
