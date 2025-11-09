@@ -128,8 +128,3 @@ Total: 273 documents providing comprehensive coverage of these domains.
 -> How does a hash table work?
 -> What is the Sharpe ratio?
 ```
-
----
-
-**Note**: This project is designed to showcase RAG implementation skills. For production use, consider using larger models, implementing proper error handling, and adding more robust evaluation metrics.
-
